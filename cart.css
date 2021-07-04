@@ -1,0 +1,53 @@
+.btn-primary {
+    width: 6rem;
+    margin: 0 auto;
+}
+
+.btn-danger {
+    width: 6rem;
+    margin: 0 auto;
+}
+
+#order-btn {
+    width: 8rem;
+}
+
+#invalidInputAlert {
+    width: 100%;
+    position: fixed;
+    top: 4.7em;
+    z-index: 9999;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 5em;
+}
+
+h4 {
+    text-align: center;
+}
+
+#item-list {
+    justify-content: center;
+}
+
+#incrBtn {
+    width: 10%;
+}
+
+#decrBtn {
+    width: 10%;
+}
+
+#removeBtn {
+    width: 10%;
+    margin-left: 1rem;
+}
+
+#itemsTable {
+    margin-top: 3rem;
+    background-color: lightcoral;
+}

@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+}
+
+header {
+    margin-bottom: 5em;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#server-error {
+    height: 55vh;
+}
