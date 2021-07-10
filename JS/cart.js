@@ -341,6 +341,7 @@ orderBtn.addEventListener('click', (event) => {
     // Validates inputs. If all conditions are true - submits post request to the server
 
     if (emailIsValid === true && firstNameIsValid === true && lastNameIsValid === true && addressIsValid === true && cityIsValid === true && checkbox.checked === true) {
+        console.log(orderObj.products);
         fetch(`http://localhost:3000/api/cameras/order`,
         {
             method: 'POST', // or 'PUT'

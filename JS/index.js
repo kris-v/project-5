@@ -8,7 +8,7 @@ main.appendChild(serverErrorDiv);
 
 
 // create API request with fetch
-// returns an array contatining the objects corresponding to each camera
+// returns an array containing the objects corresponding to each camera
 
 fetch('http://localhost:3000/api/cameras/')
     .then(response => response.json())
